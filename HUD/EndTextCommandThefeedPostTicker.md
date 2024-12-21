@@ -15,16 +15,16 @@ Example output preview:
 ![Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/image_2024-08-24_105638029.png)
 
 
-## Examples
-```lua
-BeginTextCommandThefeedPost("STRING")
-AddTextComponentSubstringPlayerName("Hello " .. GetPlayerName(PlayerId()) .. ".")
-EndTextCommandThefeedPostTicker(true, true)
-```
-
 ## Parameters
 * **isImportant**: Makes the notification flash on the screen.
 * **bHasTokens**: Makes the notification appear in the "Pause Menu > Info/Brief > Notifications" section.
 
 ## Return value
 The notification handle.
+
+## Examples
+```lua
+BeginTextCommandThefeedPost("STRING")
+AddTextComponentSubstringPlayerName("Hello " .. GetPlayerName(PlayerId()) .. ".")
+EndTextCommandThefeedPostTicker(true, true)
+```
