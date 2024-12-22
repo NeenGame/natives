@@ -6,7 +6,7 @@ aliases: ["0x1F2E4E06DEA8992B"]
 
 ```c
 // 0x1F2E4E06DEA8992B 0x01B91CD0
-void FORCE_PLAYBACK_RECORDED_VEHICLE_UPDATE(Vehicle vehicle, BOOL p1);
+void FORCE_PLAYBACK_RECORDED_VEHICLE_UPDATE(Vehicle vehicle, BOOL DoPlaceOnRoadAdjustment);
 ```
 
 ```
@@ -15,5 +15,5 @@ Often called after START_PLAYBACK_RECORDED_VEHICLE and SKIP_TIME_IN_PLAYBACK_REC
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **DoPlaceOnRoadAdjustment**: 
 

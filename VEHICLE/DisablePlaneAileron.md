@@ -5,11 +5,11 @@ ns: VEHICLE
 
 ```c
 // 0x23428FC53C60919C 0x7E84C45C
-void DISABLE_PLANE_AILERON(Vehicle vehicle, BOOL p1, BOOL p2);
+void DISABLE_PLANE_AILERON(Vehicle vehicle, BOOL LeftSide, BOOL Disable);
 ```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
-* **p2**: 
+* **LeftSide**: 
+* **Disable**: 
 

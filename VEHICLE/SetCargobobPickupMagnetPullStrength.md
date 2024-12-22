@@ -6,10 +6,10 @@ aliases: ["0xED8286F71A819BAA"]
 
 ```c
 // 0xED8286F71A819BAA 0x8191BC1A
-void SET_CARGOBOB_PICKUP_MAGNET_PULL_STRENGTH(Vehicle cargobob, float p1);
+void SET_CARGOBOB_PICKUP_MAGNET_PULL_STRENGTH(Vehicle cargobob, float PullStrength);
 ```
 
 ## Parameters
 * **cargobob**: 
-* **p1**: 
+* **PullStrength**: 
 

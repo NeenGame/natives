@@ -6,10 +6,10 @@ aliases: ["0xA17BAD153B51547E"]
 
 ```c
 // 0xA17BAD153B51547E 0xE5DCD62F
-void SET_CARGOBOB_PICKUP_MAGNET_EFFECT_RADIUS(Vehicle vehicle, float p1);
+void SET_CARGOBOB_PICKUP_MAGNET_EFFECT_RADIUS(Vehicle vehicle, float radius);
 ```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **radius**: 
 

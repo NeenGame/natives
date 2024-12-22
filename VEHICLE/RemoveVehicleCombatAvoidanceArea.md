@@ -6,10 +6,10 @@ aliases: ["0xE30524E1871F481D"]
 
 ```c
 // 0xE30524E1871F481D 0xEF05F807
-void REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA(Any p0);
+void REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA(int Index);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **Index**: 
 

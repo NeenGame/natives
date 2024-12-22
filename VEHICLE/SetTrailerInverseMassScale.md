@@ -6,10 +6,10 @@ aliases: ["0x2A8F319B392E7B3F"]
 
 ```c
 // 0x2A8F319B392E7B3F 0xE74E85CE
-void SET_TRAILER_INVERSE_MASS_SCALE(Vehicle vehicle, float p1);
+void SET_TRAILER_INVERSE_MASS_SCALE(Vehicle trailer, float InvMass);
 ```
 
 ## Parameters
-* **vehicle**: 
-* **p1**: 
+* **trailer**: 
+* **InvMass**: 
 

@@ -5,13 +5,13 @@ ns: VEHICLE
 
 ```c
 // 0xEC6A202EE4960385 0x89D28068
-void SET_VEHICLE_TYRE_BURST(Vehicle vehicle, int index, BOOL onRim, float p3);
+void SET_VEHICLE_TYRE_BURST(Vehicle vehicle, int index, BOOL onRim, float damage);
 ```
 
 ```
 "To burst tyres VEHICLE::SET_VEHICLE_TYRE_BURST(vehicle, 0, true, 1000.0)  
 to burst all tyres type it 8 times where p1 = 0 to 7.  
-p3 seems to be how much damage it has taken. 0 doesn't deflate them, 1000 completely deflates them.  
+damage seems to be how much damage it has taken. 0 doesn't deflate them, 1000 completely deflates them.  
 '0 = wheel_lf / bike, plane or jet front  
 '1 = wheel_rf  
 '2 = wheel_lm / in 6 wheels trailer, plane or jet is first one on left  
@@ -26,5 +26,5 @@ p3 seems to be how much damage it has taken. 0 doesn't deflate them, 1000 comple
 * **vehicle**: 
 * **index**: 
 * **onRim**: 
-* **p3**: 
+* **damage**: 
 

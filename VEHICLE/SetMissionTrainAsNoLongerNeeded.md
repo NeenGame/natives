@@ -5,14 +5,14 @@ ns: VEHICLE
 
 ```c
 // 0xBBE7648349B49BE8 0x19808560
-void SET_MISSION_TRAIN_AS_NO_LONGER_NEEDED(Vehicle* train, BOOL p1);
+void SET_MISSION_TRAIN_AS_NO_LONGER_NEEDED(Vehicle* train, int ReleaseTrainFlags);
 ```
 
 ```
-p1 is always 0  
+ReleaseTrainFlags is always 0  
 ```
 
 ## Parameters
 * **train**: 
-* **p1**: 
+* **ReleaseTrainFlags**: 
 

@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xA551BE18C11A476D 0x73722CD9
-int GET_NUM_MOD_COLORS(int paintType, BOOL p1);
+int GET_NUM_MOD_COLORS(int paintType, BOOL base);
 ```
 
 ```
@@ -20,6 +20,6 @@ paintType:
 
 ## Parameters
 * **paintType**: 
-* **p1**: 
+* **base**: 
 
 ## Return value

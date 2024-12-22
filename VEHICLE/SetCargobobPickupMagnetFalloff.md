@@ -6,10 +6,10 @@ aliases: ["0x685D5561680D088B"]
 
 ```c
 // 0x685D5561680D088B 0x91C80401
-void SET_CARGOBOB_PICKUP_MAGNET_FALLOFF(Vehicle vehicle, float p1);
+void SET_CARGOBOB_PICKUP_MAGNET_FALLOFF(Vehicle vehicle, float falloff);
 ```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **falloff**: 
 
